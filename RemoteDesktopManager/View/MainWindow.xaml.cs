@@ -1,4 +1,7 @@
-﻿namespace RemoteDesktopManager.View
+﻿using RemoteDesktopManager.Data;
+using System.Linq;
+
+namespace RemoteDesktopManager.View
 {
     /// <summary>
     /// Interaction logic for MainWindow.xaml
@@ -7,7 +10,7 @@
     {
         public MainWindow()
         {
-            InitializeComponent();
+            InitializeComponent();          
         }
     }
 }
