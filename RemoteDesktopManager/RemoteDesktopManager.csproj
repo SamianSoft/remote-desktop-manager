@@ -54,6 +54,12 @@
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="Model\Enums.cs" />
+    <Compile Include="Model\Message.cs" />
+    <Compile Include="Model\OrgUnit.cs" />
+    <Compile Include="Model\RemoteSession.cs" />
+    <Compile Include="Model\Session.cs" />
+    <Compile Include="Model\SessionLog.cs" />
     <Compile Include="View\MainWindow.xaml.cs">
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
@@ -77,10 +83,9 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Data" />
-    <Folder Include="Helpers" />
-    <Folder Include="Model" />
-    <Folder Include="ViewModel" />
+    <Folder Include="Data\" />
+    <Folder Include="Helpers\" />
+    <Folder Include="ViewModel\" />
   </ItemGroup>
   <ItemGroup>
     <Page Include="View\MainWindow.xaml">
