@@ -8,13 +8,29 @@ namespace RemoteDesktopManager.Models
     public class RemoteScreenSize : Base.Model
     {
         string _title;
+        long _id;
+        int? _width;
+        int? _height;
 
         [Key]
         [DatabaseGenerated(DatabaseGeneratedOption.None)]
-        public virtual long Id { get; set; }
+        public virtual long Id
+        {
+            get => _id;
+            set { _id = value; RaisePropertyChanged(); }
+        }
 
-        public int? Width { get; set; }
-        public int? Height { get; set; }
+        public int? Width
+        {
+            get => _width;
+            set { _width = value; RaisePropertyChanged(); }
+        }
+
+        public int? Height
+        {
+            get => _height;
+            set { _height = value; RaisePropertyChanged(); }
+        }
 
         public string Title
         {

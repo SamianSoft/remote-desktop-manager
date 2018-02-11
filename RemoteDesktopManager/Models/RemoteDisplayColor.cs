@@ -7,11 +7,23 @@ namespace RemoteDesktopManager.Models
 {
     public class RemoteDisplayColor : Base.Model
     {
+       long _id;
+        short _colorDepth;
+
         [Key]
         [DatabaseGenerated(DatabaseGeneratedOption.None)]
-        public virtual long Id { get; set; }
+        public virtual long Id
+        {
+            get => _id;
+            set { _id = value; RaisePropertyChanged(); }
+        }
 
-        public short ColorDepth { get; set; }
+        public short ColorDepth
+        {
+            get => _colorDepth;
+            set { _colorDepth = value; RaisePropertyChanged(); }
+        }
+
         public string Title => $"{ColorDepth} bits";
         
         public RemoteDisplayColor()

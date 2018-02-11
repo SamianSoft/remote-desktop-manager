@@ -71,10 +71,6 @@
     <Compile Include="Data\ApplicationContext.cs" />
     <Compile Include="Helpers\Consts.cs" />
     <Compile Include="Helpers\CustomExtensions.cs" />
-    <Compile Include="Migrations\201802112252395_FirstModel.cs" />
-    <Compile Include="Migrations\201802112252395_FirstModel.Designer.cs">
-      <DependentUpon>201802112252395_FirstModel.cs</DependentUpon>
-    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Base\Model.cs" />
     <Compile Include="Models\Client.cs" />
@@ -100,9 +96,6 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="Migrations\201802112252395_FirstModel.resx">
-      <DependentUpon>201802112252395_FirstModel.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>

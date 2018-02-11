@@ -17,9 +17,6 @@
           <e p="CustomExtensions.cs" t="Include" />
         </e>
         <e p="Migrations" t="Include">
-          <e p="201802112242103_test.cs" t="Include" />
-          <e p="201802112242103_test.Designer.cs" t="Include" />
-          <e p="201802112242103_test.resx" t="Include" />
           <e p="Configuration.cs" t="Include" />
         </e>
         <e p="Models" t="Include">

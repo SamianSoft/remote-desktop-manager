@@ -5,14 +5,48 @@ namespace RemoteDesktopManager.Models
 {
     public class RemoteSession : Base.Session
     {
-        public long? ColorDepthId { get; set; }
-        public RemoteDisplayColor ColorDepth { get; set; }
-        public long? SizeId { get; set; }
-        public RemoteScreenSize Size { get; set; }
+        long? _colorDepthId;
+        RemoteDisplayColor _colorDepth;
+        long? _sizeId;
+        RemoteScreenSize _size;
+        bool _isConsole = false;
+        OnlineStatus? _status;
+
+        public long? ColorDepthId
+        {
+            get => _colorDepthId;
+            set { _colorDepthId = value; RaisePropertyChanged(); }
+        }
+
+        public RemoteDisplayColor ColorDepth
+        {
+            get => _colorDepth;
+            set { _colorDepth = value; RaisePropertyChanged(); }
+        }
+
+        public long? SizeId
+        {
+            get => _sizeId;
+            set { _sizeId = value; RaisePropertyChanged(); }
+        }
+
+        public RemoteScreenSize Size
+        {
+            get => _size;
+            set { _size = value; RaisePropertyChanged(); }
+        }
 
         [DefaultValue(false)]
-        public bool IsConsole { get; set; } = false;
+        public bool IsConsole
+        {
+            get => _isConsole;
+            set { _isConsole = value; RaisePropertyChanged(); }
+        }
 
-        public OnlineStatus? Status { get; set; }
+        public OnlineStatus? Status
+        {
+            get => _status;
+            set { _status = value; RaisePropertyChanged(); }
+        }
     }
 }
