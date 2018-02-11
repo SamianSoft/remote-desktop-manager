@@ -1,10 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
+﻿
 using System.Data.Entity;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using RemoteDesktopManager.Model;
+using RemoteDesktopManager.Models;
 
 namespace RemoteDesktopManager.Data
 {
@@ -13,6 +9,10 @@ namespace RemoteDesktopManager.Data
         public DbSet<Client> Clients { get; set; }
         public DbSet<RemoteSession> RemoteSessions { get; set; }
         public DbSet<SqlSession> SqlSessions { get; set; }
+        public DbSet<Contact> Contacts { get; set; }
+        public DbSet<RemoteDisplayColor> RemoteDisplayColors { get; set; }
+        public DbSet<RemoteScreenSize> ScreenSizes { get; set; }
+        public DbSet<SessionLog> SessionLogs { get; set; }
         public ApplicationContext()
         : base("ApplicationDataBase")
         {

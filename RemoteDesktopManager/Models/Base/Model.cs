@@ -1,19 +1,14 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace RemoteDesktopManager.Model
+namespace RemoteDesktopManager.Models.Base
 {
-    public abstract class BaseModel
+    public abstract class Model
     {
         [Key]
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
-        public long Id { get; set; }
+        public virtual long Id { get; set; }
 
         [Required]
         public DateTimeOffset CreteDate { get; set; } = DateTimeOffset.Now;

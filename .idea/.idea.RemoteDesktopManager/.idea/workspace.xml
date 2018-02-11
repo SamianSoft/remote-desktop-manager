@@ -2,13 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="362272b2-c380-4b04-81fe-5e03a5a704cb" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/RemoteDesktopManager/Models/RemoteSession.cs" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/RemoteDesktopManagerTest/CostsTests.cs" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.RemoteDesktopManager/.idea/contentModel.xml" afterPath="$PROJECT_DIR$/.idea/.idea.RemoteDesktopManager/.idea/contentModel.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.RemoteDesktopManager/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/.idea.RemoteDesktopManager/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/RemoteDesktopManager/App.config" afterPath="$PROJECT_DIR$/RemoteDesktopManager/App.config" />
-      <change beforePath="$PROJECT_DIR$/RemoteDesktopManager/App.xaml.cs" afterPath="$PROJECT_DIR$/RemoteDesktopManager/App.xaml.cs" />
+      <change beforePath="$PROJECT_DIR$/RemoteDesktopManager/App.xaml" afterPath="$PROJECT_DIR$/RemoteDesktopManager/App.xaml" />
+      <change beforePath="$PROJECT_DIR$/RemoteDesktopManager/Data/ApplicationContext.cs" afterPath="$PROJECT_DIR$/RemoteDesktopManager/Data/ApplicationContext.cs" />
+      <change beforePath="$PROJECT_DIR$/RemoteDesktopManager/Migrations/Configuration.cs" afterPath="$PROJECT_DIR$/RemoteDesktopManager/Migrations/Configuration.cs" />
+      <change beforePath="$PROJECT_DIR$/RemoteDesktopManager/Model/Base/BaseModel.cs" afterPath="$PROJECT_DIR$/RemoteDesktopManager/Models/Base/Model.cs" />
+      <change beforePath="$PROJECT_DIR$/RemoteDesktopManager/Model/Base/BaseSession.cs" afterPath="$PROJECT_DIR$/RemoteDesktopManager/Models/Base/Session.cs" />
+      <change beforePath="$PROJECT_DIR$/RemoteDesktopManager/Model/Client.cs" afterPath="$PROJECT_DIR$/RemoteDesktopManager/Models/Client.cs" />
+      <change beforePath="$PROJECT_DIR$/RemoteDesktopManager/Model/RemoteSession.cs" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/RemoteDesktopManager/Model/SqlSession.cs" afterPath="$PROJECT_DIR$/RemoteDesktopManager/Models/SqlSession.cs" />
       <change beforePath="$PROJECT_DIR$/RemoteDesktopManager/RemoteDesktopManager.csproj" afterPath="$PROJECT_DIR$/RemoteDesktopManager/RemoteDesktopManager.csproj" />
-      <change beforePath="$PROJECT_DIR$/RemoteDesktopManager/View/MainWindow.xaml" afterPath="$PROJECT_DIR$/RemoteDesktopManager/View/MainWindow.xaml" />
-      <change beforePath="$PROJECT_DIR$/RemoteDesktopManager/View/MainWindow.xaml.cs" afterPath="$PROJECT_DIR$/RemoteDesktopManager/View/MainWindow.xaml.cs" />
+      <change beforePath="$PROJECT_DIR$/RemoteDesktopManager/View/MainWindow.xaml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/RemoteDesktopManager/View/MainWindow.xaml.cs" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/RemoteDesktopManagerTest/RemoteDesktopManagerTest.csproj" afterPath="$PROJECT_DIR$/RemoteDesktopManagerTest/RemoteDesktopManagerTest.csproj" />
+      <change beforePath="$PROJECT_DIR$/RemoteDesktopManagerTest/Tests.cs" afterPath="" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -19,83 +29,154 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="MainWindow.xaml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/RemoteDesktopManager/View/MainWindow.xaml">
+      <file leaf-file-name="Client.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/RemoteDesktopManager/Models/Client.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="22" column="14" lean-forward="false" selection-start-line="22" selection-start-column="14" selection-end-line="22" selection-end-column="14" />
+              <folding>
+                <marker date="1518388793962" expanded="true" signature="6:78" ph="..." />
+                <marker date="1518388793962" expanded="true" signature="117:753" ph="{...}" />
+                <marker date="1518388793962" expanded="true" signature="156:751" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Contact.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/RemoteDesktopManager/Models/Contact.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="17" column="14" lean-forward="false" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="14" />
+              <folding>
+                <marker date="1518388793900" expanded="true" signature="83:501" ph="{...}" />
+                <marker date="1518388793900" expanded="true" signature="123:499" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Message.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/RemoteDesktopManager/Models/Message.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
-              <caret line="0" column="42" lean-forward="false" selection-start-line="0" selection-start-column="42" selection-end-line="0" selection-end-column="42" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Tests.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/RemoteDesktopManagerTest/Tests.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="13" column="1" lean-forward="false" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
+              <caret line="0" column="44" lean-forward="false" selection-start-line="0" selection-start-column="44" selection-end-line="0" selection-end-column="44" />
               <folding>
-                <marker date="1517986101609" expanded="false" signature="6:26" ph="..." />
-                <marker date="1517986101609" expanded="true" signature="62:195" ph="{...}" />
-                <marker date="1517986101609" expanded="true" signature="87:193" ph="{...}" />
-                <marker date="1517986101609" expanded="true" signature="136:187" ph="{...}" />
+                <marker date="1518388674458" expanded="true" signature="83:325" ph="{...}" />
+                <marker date="1518388674458" expanded="true" signature="123:323" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BaseModel.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/RemoteDesktopManager/Model/BaseModel.cs">
+      <file leaf-file-name="RemoteSession.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/RemoteDesktopManager/Models/RemoteSession.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="12" column="5" lean-forward="false" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+            <state relative-caret-position="15">
+              <caret line="1" column="28" lean-forward="false" selection-start-line="1" selection-start-column="28" selection-end-line="1" selection-end-column="28" />
               <folding>
-                <marker date="1518103131073" expanded="false" signature="6:241" ph="..." />
-                <marker date="1518103131073" expanded="true" signature="279:636" ph="{...}" />
-                <marker date="1518103131073" expanded="true" signature="317:634" ph="{...}" />
+                <marker date="1518388753319" expanded="true" signature="6:64" ph="..." />
+                <marker date="1518388753319" expanded="true" signature="103:500" ph="{...}" />
+                <marker date="1518388753319" expanded="true" signature="151:498" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Client.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/RemoteDesktopManager/Model/Client.cs">
+      <file leaf-file-name="RemoteDisplayColor.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/RemoteDesktopManager/Models/RemoteDisplayColor.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="8" lean-forward="false" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
+            <state relative-caret-position="45">
+              <caret line="3" column="35" lean-forward="false" selection-start-line="3" selection-start-column="35" selection-end-line="3" selection-end-column="35" />
               <folding>
-                <marker date="1518103010064" expanded="true" signature="36:104" ph="{...}" />
-                <marker date="1518103010064" expanded="true" signature="72:102" ph="{...}" />
+                <marker date="1518388681957" expanded="true" signature="6:146" ph="..." />
+                <marker date="1518388681957" expanded="true" signature="185:884" ph="{...}" />
+                <marker date="1518388681957" expanded="true" signature="236:882" ph="{...}" />
+                <marker date="1518388681957" expanded="true" signature="504:524" ph="{...}" />
+                <marker date="1518388681957" expanded="true" signature="579:637" ph="{...}" />
+                <marker date="1518388681957" expanded="true" signature="689:876" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ApplicationContext.cs" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Configuration.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/RemoteDesktopManager/Migrations/Configuration.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="375">
+              <caret line="58" column="48" lean-forward="false" selection-start-line="58" selection-start-column="48" selection-end-line="58" selection-end-column="48" />
+              <folding>
+                <marker date="1518388869843" expanded="true" signature="6:140" ph="..." />
+                <marker date="1518388869843" expanded="true" signature="183:4269" ph="{...}" />
+                <marker date="1518388869843" expanded="true" signature="273:4267" ph="{...}" />
+                <marker date="1518388869843" expanded="true" signature="310:377" ph="{...}" />
+                <marker date="1518388869843" expanded="true" signature="443:4261" ph="{...}" />
+                <marker date="1518388869843" expanded="true" signature="466:671" ph="/* This method will be called after migrating to the latest version. ... */" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CostsTests.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/RemoteDesktopManagerTest/CostsTests.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <marker date="1518389358000" expanded="true" signature="6:83" ph="..." />
+                <marker date="1518389358000" expanded="true" signature="119:891" ph="{...}" />
+                <marker date="1518389358000" expanded="true" signature="149:889" ph="{...}" />
+                <marker date="1518389358000" expanded="true" signature="213:503" ph="{...}" />
+                <marker date="1518389358000" expanded="true" signature="559:883" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MainWindow.xaml.cs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/RemoteDesktopManager/Views/MainWindow.xaml.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="19" column="30" lean-forward="false" selection-start-line="19" selection-start-column="30" selection-end-line="19" selection-end-column="30" />
+              <folding>
+                <marker date="1518389357884" expanded="true" signature="6:130" ph="..." />
+                <marker date="1518389357884" expanded="true" signature="168:777" ph="{...}" />
+                <marker date="1518389357884" expanded="true" signature="175:253" ph="/// Interaction logic for MainWindow.xaml ... " />
+                <marker date="1518389357884" expanded="true" signature="289:775" ph="{...}" />
+                <marker date="1518389357884" expanded="true" signature="323:769" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ApplicationContext.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/RemoteDesktopManager/Data/ApplicationContext.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" column="35" lean-forward="true" selection-start-line="13" selection-start-column="35" selection-end-line="13" selection-end-column="35" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding>
-                <marker date="1518103131067" expanded="true" signature="6:175" ph="..." />
-                <marker date="1518103131067" expanded="true" signature="212:420" ph="{...}" />
-                <marker date="1518103131067" expanded="true" signature="260:418" ph="{...}" />
-                <marker date="1518103131067" expanded="true" signature="391:412" ph="{...}" />
+                <marker date="1518388829438" expanded="true" signature="7:61" ph="..." />
+                <marker date="1518388829438" expanded="true" signature="98:685" ph="{...}" />
+                <marker date="1518388829438" expanded="true" signature="148:683" ph="{...}" />
+                <marker date="1518388829438" expanded="true" signature="655:676" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MainWindow.xaml.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/RemoteDesktopManager/View/MainWindow.xaml.cs">
+      <file leaf-file-name="RemoteScreenSize.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/RemoteDesktopManager/Models/RemoteScreenSize.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="12" lean-forward="false" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
+            <state relative-caret-position="-234">
+              <caret line="3" column="35" lean-forward="false" selection-start-line="3" selection-start-column="35" selection-end-line="3" selection-end-column="35" />
               <folding>
-                <marker date="1518103131006" expanded="true" signature="35:266" ph="{...}" />
-                <marker date="1518103131006" expanded="true" signature="42:120" ph="/// Interaction logic for MainWindow.xaml ... " />
-                <marker date="1518103131006" expanded="true" signature="156:264" ph="{...}" />
-                <marker date="1518103131006" expanded="true" signature="190:258" ph="{...}" />
+                <marker date="1518388688081" expanded="true" signature="6:146" ph="..." />
+                <marker date="1518388688081" expanded="true" signature="185:1142" ph="{...}" />
+                <marker date="1518388688081" expanded="true" signature="234:1140" ph="{...}" />
+                <marker date="1518388688081" expanded="true" signature="492:627" ph="{...}" />
+                <marker date="1518388688081" expanded="true" signature="662:682" ph="{...}" />
+                <marker date="1518388688081" expanded="true" signature="733:791" ph="{...}" />
+                <marker date="1518388688081" expanded="true" signature="841:1134" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -103,26 +184,72 @@
       </file>
     </leaf>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>using RemoteDesktopManager.Model.Base;</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>using RemoteDesktopManager.Models.Base;</replace>
+    </replaceStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/RemoteDesktopManager/View/MainWindow.xaml" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/RemoteDesktopManager/View/MainWindow.xaml.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/RemoteDesktopManager/Model/BaseModel.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/RemoteDesktopManager/Model/Client.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/RemoteDesktopManagerTest/Tests.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/RemoteDesktopManager/Models/SessionLog.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/RemoteDesktopManager/Models/Contact.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/RemoteDesktopManager/Models/RemoteDisplayColor.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/RemoteDesktopManager/Helpers/Consts.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/RemoteDesktopManager/Views/MainWindow.xaml.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/RemoteDesktopManager/Helpers/CustomExtensions.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/RemoteDesktopManager/Models/RemoteScreenSize.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/RemoteDesktopManager/Models/Client.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/RemoteDesktopManager/Migrations/Configuration.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/RemoteDesktopManager/Data/ApplicationContext.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/RemoteDesktopManager/Models/Base/Session.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/RemoteDesktopManager/Models/Base/Model.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/RemoteDesktopManager/Models/SqlSession.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/RemoteDesktopManager/Models/RemoteSession.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/RemoteDesktopManagerTest/CostsTests.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/RemoteDesktopManager/Models/Message.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/RemoteDesktopManager/View/MainWindow.xaml" />
-        <option value="$PROJECT_DIR$/RemoteDesktopManagerTest/Tests.cs" />
-        <option value="$PROJECT_DIR$/RemoteDesktopManager/View/MainWindow.xaml.cs" />
         <option value="$PROJECT_DIR$/RemoteDesktopManager/Model/BaseModel.cs" />
+        <option value="$PROJECT_DIR$/RemoteDesktopManager/Model/ColorDepth.cs" />
+        <option value="$PROJECT_DIR$/RemoteDesktopManager/Model/Base/BaseModel.cs" />
+        <option value="$PROJECT_DIR$/RemoteDesktopManager/Model/DisplayColor.cs" />
         <option value="$PROJECT_DIR$/RemoteDesktopManager/Model/Client.cs" />
+        <option value="$PROJECT_DIR$/RemoteDesktopManager/Model/Contact.cs" />
+        <option value="$PROJECT_DIR$/RemoteDesktopManager/Model/Message.cs" />
+        <option value="$PROJECT_DIR$/RemoteDesktopManager/Model/SessionLog.cs" />
+        <option value="$PROJECT_DIR$/RemoteDesktopManager/Model/Base/BaseSession.cs" />
+        <option value="$PROJECT_DIR$/RemoteDesktopManager/View/MainWindow.xaml.cs" />
+        <option value="$PROJECT_DIR$/RemoteDesktopManager/Helpers/CustomExtensions.cs" />
+        <option value="$PROJECT_DIR$/RemoteDesktopManager/Helpers/ScreenSize.cs" />
+        <option value="$PROJECT_DIR$/RemoteDesktopManager/Model/ScreenSize.cs" />
+        <option value="$PROJECT_DIR$/RemoteDesktopManagerTest/Tests.cs" />
+        <option value="$PROJECT_DIR$/RemoteDesktopManager/Helpers/Consts.cs" />
+        <option value="$PROJECT_DIR$/RemoteDesktopManager/Model/RemoteScreenSize.cs" />
+        <option value="$PROJECT_DIR$/RemoteDesktopManager/Model/RemoteDisplayColor.cs" />
+        <option value="$PROJECT_DIR$/RemoteDesktopManager/Model/RemoteSession.cs" />
+        <option value="$PROJECT_DIR$/RemoteDesktopManager/Model/Base/Session.cs" />
+        <option value="$PROJECT_DIR$/RemoteDesktopManager/Models/Base/Model.cs" />
+        <option value="$PROJECT_DIR$/RemoteDesktopManager/Models/Base/Session.cs" />
+        <option value="$PROJECT_DIR$/RemoteDesktopManager/Models/Message.cs" />
+        <option value="$PROJECT_DIR$/RemoteDesktopManager/Models/RemoteDisplayColor.cs" />
+        <option value="$PROJECT_DIR$/RemoteDesktopManager/Models/RemoteScreenSize.cs" />
+        <option value="$PROJECT_DIR$/RemoteDesktopManager/Models/SessionLog.cs" />
+        <option value="$PROJECT_DIR$/RemoteDesktopManager/Models/SqlSession.cs" />
+        <option value="$PROJECT_DIR$/RemoteDesktopManager/Models/RemoteSession.cs" />
+        <option value="$PROJECT_DIR$/RemoteDesktopManager/Models/Contact.cs" />
+        <option value="$PROJECT_DIR$/RemoteDesktopManager/Models/Client.cs" />
         <option value="$PROJECT_DIR$/RemoteDesktopManager/Data/ApplicationContext.cs" />
+        <option value="$PROJECT_DIR$/RemoteDesktopManager/Migrations/Configuration.cs" />
+        <option value="$PROJECT_DIR$/RemoteDesktopManagerTest/CostsTests.cs" />
+        <option value="$PROJECT_DIR$/RemoteDesktopManager/Views/MainWindow.xaml.cs" />
       </list>
     </option>
   </component>
@@ -175,32 +302,44 @@
               <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
               <item name="RemoteDesktopManager (2 projects)" type="977d5f41:SolutionExplorerNodeRider" />
               <item name="RemoteDesktopManager" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Helpers" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="RemoteDesktopManager (2 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="RemoteDesktopManager" type="977d5f41:SolutionExplorerNodeRider" />
               <item name="Migrations" type="977d5f41:SolutionExplorerNodeRider" />
             </path>
             <path>
               <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
               <item name="RemoteDesktopManager (2 projects)" type="977d5f41:SolutionExplorerNodeRider" />
               <item name="RemoteDesktopManager" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="Model" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Models" type="977d5f41:SolutionExplorerNodeRider" />
             </path>
             <path>
               <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
               <item name="RemoteDesktopManager (2 projects)" type="977d5f41:SolutionExplorerNodeRider" />
               <item name="RemoteDesktopManager" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="Properties" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Models" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Base" type="977d5f41:SolutionExplorerNodeRider" />
             </path>
             <path>
               <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
               <item name="RemoteDesktopManager (2 projects)" type="977d5f41:SolutionExplorerNodeRider" />
               <item name="RemoteDesktopManager" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="View" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Views" type="977d5f41:SolutionExplorerNodeRider" />
             </path>
             <path>
               <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
               <item name="RemoteDesktopManager (2 projects)" type="977d5f41:SolutionExplorerNodeRider" />
               <item name="RemoteDesktopManager" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="View" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Views" type="977d5f41:SolutionExplorerNodeRider" />
               <item name="MainWindow.xaml" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="RemoteDesktopManager (2 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="RemoteDesktopManagerTest" type="977d5f41:SolutionExplorerNodeRider" />
             </path>
           </expand>
           <select />
@@ -213,6 +352,8 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="last_opened_file_path" value="C:/Program Files (x86)/SmartGit/git/bin/git.exe" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -226,7 +367,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected=".NET Project.Default">
     <configuration name="Default" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="$PROJECT_DIR$/RemoteDesktopManager/bin/Debug/RemoteDesktopManager.exe" />
       <option name="PROGRAM_PARAMETERS" value="" />
@@ -242,6 +383,9 @@
       <option name="PROJECT_KIND" value="Console" />
       <option name="PROJECT_TFM" value=".NETFramework,Version=v4.7" />
     </configuration>
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue=".NET Project.Default" />
+    </list>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
@@ -259,11 +403,15 @@
       <workItem from="1517937714899" duration="63000" />
       <workItem from="1517948603894" duration="1341000" />
       <workItem from="1518102476310" duration="881000" />
+      <workItem from="1518361838313" duration="179000" />
+      <workItem from="1518362052930" duration="4567000" />
+      <workItem from="1518368306605" duration="3078000" />
+      <workItem from="1518384367238" duration="4704000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2285000" />
+    <option name="totallyTimeSpent" value="14813000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -276,28 +424,29 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1411" height="829" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Errors In Solution" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32914925" sideWeight="0.50250894" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Unit Tests" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32914925" sideWeight="0.49462366" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32853025" sideWeight="0.51739454" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Unit Tests" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32853025" sideWeight="0.4826055" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.49742457" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32914925" sideWeight="0.49749103" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32853025" sideWeight="0.48556626" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="NuGet" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30404463" sideWeight="0.49462366" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24301076" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25018504" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299712" sideWeight="0.4974093" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39913544" sideWeight="0.4914878" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -308,69 +457,225 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/RemoteDesktopManager/Models/RemoteDisplayColor.cs</url>
+          <line>27</line>
+          <properties documentPath="$PROJECT_DIR$/RemoteDesktopManager/Model/RemoteDisplayColor.cs">
+            <startOffsets>
+              <startOffset value="712" />
+            </startOffsets>
+            <endOffsets>
+              <endOffset value="732" />
+            </endOffsets>
+          </properties>
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="2" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/RemoteDesktopManager/Models/Base/Session.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="90" lean-forward="false" selection-start-line="25" selection-start-column="90" selection-end-line="25" selection-end-column="90" />
+          <folding>
+            <marker date="1518388625299" expanded="true" signature="6:78" ph="..." />
+            <marker date="1518388625299" expanded="true" signature="122:680" ph="{...}" />
+            <marker date="1518388625299" expanded="true" signature="166:678" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RemoteDesktopManager/Migrations/Configuration.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="1" lean-forward="true" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
+          <folding>
+            <marker date="1518388869843" expanded="true" signature="6:140" ph="..." />
+            <marker date="1518388869843" expanded="true" signature="183:4269" ph="{...}" />
+            <marker date="1518388869843" expanded="true" signature="273:4267" ph="{...}" />
+            <marker date="1518388869843" expanded="true" signature="310:377" ph="{...}" />
+            <marker date="1518388869843" expanded="true" signature="443:4261" ph="{...}" />
+            <marker date="1518388869843" expanded="true" signature="466:671" ph="/* This method will be called after migrating to the latest version. ... */" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RemoteDesktopManager/Models/Client.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="25" column="8" lean-forward="false" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="92" />
+          <folding>
+            <marker date="1518388793962" expanded="true" signature="6:78" ph="..." />
+            <marker date="1518388793962" expanded="true" signature="117:753" ph="{...}" />
+            <marker date="1518388793962" expanded="true" signature="156:751" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RemoteDesktopManager/Models/Message.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="1" lean-forward="false" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+          <folding>
+            <marker date="1518388674458" expanded="true" signature="83:325" ph="{...}" />
+            <marker date="1518388674458" expanded="true" signature="123:323" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RemoteDesktopManager/Models/RemoteSession.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="21" column="8" lean-forward="false" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="8" />
+          <folding>
+            <marker date="1518388753319" expanded="true" signature="6:64" ph="..." />
+            <marker date="1518388753319" expanded="true" signature="103:500" ph="{...}" />
+            <marker date="1518388753319" expanded="true" signature="151:498" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RemoteDesktopManager/Model/DisplayColor.cs" />
+    <entry file="file://$PROJECT_DIR$/RemoteDesktopManager/Model/ScreenSize.cs" />
+    <entry file="file://$PROJECT_DIR$/RemoteDesktopManager/View/MainWindow.xaml.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="18" column="5" lean-forward="false" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RemoteDesktopManager/Models/SessionLog.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="17" column="59" lean-forward="false" selection-start-line="17" selection-start-column="59" selection-end-line="17" selection-end-column="59" />
+          <folding>
+            <marker date="1518388722808" expanded="true" signature="6:58" ph="..." />
+            <marker date="1518388722808" expanded="true" signature="97:532" ph="{...}" />
+            <marker date="1518388722808" expanded="true" signature="140:530" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RemoteDesktopManager/Models/SqlSession.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1518388740931" expanded="true" signature="37:94" ph="{...}" />
+            <marker date="1518388740931" expanded="true" signature="80:92" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RemoteDesktopManager/Models/Base/Session.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="90" lean-forward="false" selection-start-line="25" selection-start-column="90" selection-end-line="25" selection-end-column="90" />
+          <folding>
+            <marker date="1518388625299" expanded="true" signature="6:78" ph="..." />
+            <marker date="1518388625299" expanded="true" signature="122:680" ph="{...}" />
+            <marker date="1518388625299" expanded="true" signature="166:678" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RemoteDesktopManager/Migrations/Configuration.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="28" column="69" lean-forward="false" selection-start-line="28" selection-start-column="69" selection-end-line="28" selection-end-column="69" />
+          <folding>
+            <marker date="1518388869843" expanded="true" signature="6:140" ph="..." />
+            <marker date="1518388869843" expanded="true" signature="183:4269" ph="{...}" />
+            <marker date="1518388869843" expanded="true" signature="273:4267" ph="{...}" />
+            <marker date="1518388869843" expanded="true" signature="310:377" ph="{...}" />
+            <marker date="1518388869843" expanded="true" signature="443:4261" ph="{...}" />
+            <marker date="1518388869843" expanded="true" signature="466:671" ph="/* This method will be called after migrating to the latest version. ... */" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/RemoteDesktopManager/View/MainWindow.xaml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="42" lean-forward="false" selection-start-line="0" selection-start-column="42" selection-end-line="0" selection-end-column="42" />
-          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RemoteDesktopManagerTest/CostsTests.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="13" column="1" lean-forward="false" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RemoteDesktopManager/Models/Client.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="8" lean-forward="false" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
+          <folding>
+            <marker date="1518388793962" expanded="true" signature="6:78" ph="..." />
+            <marker date="1518388793962" expanded="true" signature="117:753" ph="{...}" />
+            <marker date="1518388793962" expanded="true" signature="156:751" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RemoteDesktopManager/Data/ApplicationContext.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RemoteDesktopManager/Models/RemoteSession.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="29" lean-forward="false" selection-start-line="23" selection-start-column="20" selection-end-line="24" selection-end-column="29" />
+          <folding>
+            <marker date="1518388753319" expanded="true" signature="6:64" ph="..." />
+            <marker date="1518388753319" expanded="true" signature="103:500" ph="{...}" />
+            <marker date="1518388753319" expanded="true" signature="151:498" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/RemoteDesktopManager/View/MainWindow.xaml.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="5" lean-forward="false" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
-          <folding>
-            <marker date="1518103131006" expanded="true" signature="35:266" ph="{...}" />
-            <marker date="1518103131006" expanded="true" signature="42:120" ph="/// Interaction logic for MainWindow.xaml ... " />
-            <marker date="1518103131006" expanded="true" signature="156:264" ph="{...}" />
-            <marker date="1518103131006" expanded="true" signature="190:258" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/RemoteDesktopManagerTest/Tests.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="1" lean-forward="true" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
-          <folding>
-            <marker date="1517986101609" expanded="false" signature="6:26" ph="..." />
-            <marker date="1517986101609" expanded="true" signature="62:195" ph="{...}" />
-            <marker date="1517986101609" expanded="true" signature="87:193" ph="{...}" />
-            <marker date="1517986101609" expanded="true" signature="136:187" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/RemoteDesktopManager/View/MainWindow.xaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="255">
+          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/RemoteDesktopManager/Model/DisplayColor.cs" />
     <entry file="file://$PROJECT_DIR$/RemoteDesktopManager/View/MainWindow.xaml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="42" lean-forward="false" selection-start-line="0" selection-start-column="42" selection-end-line="0" selection-end-column="42" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/RemoteDesktopManagerTest/Tests.cs">
+    <entry file="file://$PROJECT_DIR$/RemoteDesktopManagerTest/CostsTests.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="13" column="1" lean-forward="false" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RemoteDesktopManager/Model/BaseModel.cs" />
+    <entry file="file://$PROJECT_DIR$/RemoteDesktopManager/Models/Client.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="8" lean-forward="false" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
           <folding>
-            <marker date="1517986101609" expanded="false" signature="6:26" ph="..." />
-            <marker date="1517986101609" expanded="true" signature="62:195" ph="{...}" />
-            <marker date="1517986101609" expanded="true" signature="87:193" ph="{...}" />
-            <marker date="1517986101609" expanded="true" signature="136:187" ph="{...}" />
+            <marker date="1518388793962" expanded="true" signature="6:78" ph="..." />
+            <marker date="1518388793962" expanded="true" signature="117:753" ph="{...}" />
+            <marker date="1518388793962" expanded="true" signature="156:751" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -379,35 +684,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="10" column="12" lean-forward="false" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
-          <folding>
-            <marker date="1518103131006" expanded="true" signature="35:266" ph="{...}" />
-            <marker date="1518103131006" expanded="true" signature="42:120" ph="/// Interaction logic for MainWindow.xaml ... " />
-            <marker date="1518103131006" expanded="true" signature="156:264" ph="{...}" />
-            <marker date="1518103131006" expanded="true" signature="190:258" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/RemoteDesktopManager/Model/BaseModel.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="12" column="5" lean-forward="false" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
-          <folding>
-            <marker date="1518103131073" expanded="false" signature="6:241" ph="..." />
-            <marker date="1518103131073" expanded="true" signature="279:636" ph="{...}" />
-            <marker date="1518103131073" expanded="true" signature="317:634" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/RemoteDesktopManager/Model/Client.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="8" lean-forward="false" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
-          <folding>
-            <marker date="1518103010064" expanded="true" signature="36:104" ph="{...}" />
-            <marker date="1518103010064" expanded="true" signature="72:102" ph="{...}" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -415,11 +692,256 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
           <caret line="13" column="35" lean-forward="true" selection-start-line="13" selection-start-column="35" selection-end-line="13" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RemoteDesktopManager/View/MainWindow.xaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="42" lean-forward="false" selection-start-line="0" selection-start-column="42" selection-end-line="0" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RemoteDesktopManager/View/MainWindow.xaml.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="5" lean-forward="false" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RemoteDesktopManagerTest/CostsTests.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="1" lean-forward="true" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RemoteDesktopManager/View/MainWindow.xaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RemoteDesktopManager/Model/BaseModel.cs" />
+    <entry file="file://$PROJECT_DIR$/RemoteDesktopManager/View/MainWindow.xaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="42" lean-forward="false" selection-start-line="0" selection-start-column="42" selection-end-line="0" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RemoteDesktopManager/View/MainWindow.xaml.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="18" column="5" lean-forward="false" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RemoteDesktopManager/Model/DisplayColor.cs" />
+    <entry file="file://$PROJECT_DIR$/RemoteDesktopManager/Helpers/CustomExtensions.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="17" column="1" lean-forward="false" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
           <folding>
-            <marker date="1518103131067" expanded="true" signature="6:175" ph="..." />
-            <marker date="1518103131067" expanded="true" signature="212:420" ph="{...}" />
-            <marker date="1518103131067" expanded="true" signature="260:418" ph="{...}" />
-            <marker date="1518103131067" expanded="true" signature="391:412" ph="{...}" />
+            <marker date="1518386215967" expanded="true" signature="379:380" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RemoteDesktopManager/Helpers/ScreenSize.cs" />
+    <entry file="file://$PROJECT_DIR$/RemoteDesktopManager/Model/ScreenSize.cs" />
+    <entry file="file://$PROJECT_DIR$/RemoteDesktopManager/Helpers/Consts.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="13" column="17" lean-forward="false" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
+          <folding>
+            <marker date="1518387374950" expanded="true" signature="68:791" ph="{...}" />
+            <marker date="1518387374950" expanded="true" signature="99:193" ph="{...}" />
+            <marker date="1518387374950" expanded="true" signature="220:662" ph="{...}" />
+            <marker date="1518387374950" expanded="true" signature="691:789" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RemoteDesktopManager/Models/Base/Model.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="9" column="37" lean-forward="false" selection-start-line="9" selection-start-column="37" selection-end-line="9" selection-end-column="37" />
+          <folding>
+            <marker date="1518388883634" expanded="false" signature="6:110" ph="..." />
+            <marker date="1518388883634" expanded="true" signature="154:516" ph="{...}" />
+            <marker date="1518388883634" expanded="true" signature="188:514" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RemoteDesktopManager/Models/Base/Session.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="44" lean-forward="false" selection-start-line="1" selection-start-column="44" selection-end-line="1" selection-end-column="44" />
+          <folding>
+            <marker date="1518388625299" expanded="true" signature="6:78" ph="..." />
+            <marker date="1518388625299" expanded="true" signature="122:680" ph="{...}" />
+            <marker date="1518388625299" expanded="true" signature="166:678" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RemoteDesktopManager/Models/SqlSession.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="33" lean-forward="false" selection-start-line="2" selection-start-column="33" selection-end-line="2" selection-end-column="33" />
+          <folding>
+            <marker date="1518388740931" expanded="true" signature="37:94" ph="{...}" />
+            <marker date="1518388740931" expanded="true" signature="80:92" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RemoteDesktopManager/Models/SessionLog.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="15" lean-forward="false" selection-start-line="18" selection-start-column="15" selection-end-line="18" selection-end-column="15" />
+          <folding>
+            <marker date="1518388722808" expanded="true" signature="6:58" ph="..." />
+            <marker date="1518388722808" expanded="true" signature="97:532" ph="{...}" />
+            <marker date="1518388722808" expanded="true" signature="140:530" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RemoteDesktopManager/Models/RemoteSession.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="28" lean-forward="false" selection-start-line="1" selection-start-column="28" selection-end-line="1" selection-end-column="28" />
+          <folding>
+            <marker date="1518388753319" expanded="true" signature="6:64" ph="..." />
+            <marker date="1518388753319" expanded="true" signature="103:500" ph="{...}" />
+            <marker date="1518388753319" expanded="true" signature="151:498" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RemoteDesktopManager/Models/RemoteScreenSize.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-234">
+          <caret line="3" column="35" lean-forward="false" selection-start-line="3" selection-start-column="35" selection-end-line="3" selection-end-column="35" />
+          <folding>
+            <marker date="1518388688081" expanded="true" signature="6:146" ph="..." />
+            <marker date="1518388688081" expanded="true" signature="185:1142" ph="{...}" />
+            <marker date="1518388688081" expanded="true" signature="234:1140" ph="{...}" />
+            <marker date="1518388688081" expanded="true" signature="492:627" ph="{...}" />
+            <marker date="1518388688081" expanded="true" signature="662:682" ph="{...}" />
+            <marker date="1518388688081" expanded="true" signature="733:791" ph="{...}" />
+            <marker date="1518388688081" expanded="true" signature="841:1134" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RemoteDesktopManager/Models/RemoteDisplayColor.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="35" lean-forward="false" selection-start-line="3" selection-start-column="35" selection-end-line="3" selection-end-column="35" />
+          <folding>
+            <marker date="1518388681957" expanded="true" signature="6:146" ph="..." />
+            <marker date="1518388681957" expanded="true" signature="185:884" ph="{...}" />
+            <marker date="1518388681957" expanded="true" signature="236:882" ph="{...}" />
+            <marker date="1518388681957" expanded="true" signature="504:524" ph="{...}" />
+            <marker date="1518388681957" expanded="true" signature="579:637" ph="{...}" />
+            <marker date="1518388681957" expanded="true" signature="689:876" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RemoteDesktopManager/Models/Message.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="44" lean-forward="false" selection-start-line="0" selection-start-column="44" selection-end-line="0" selection-end-column="44" />
+          <folding>
+            <marker date="1518388674458" expanded="true" signature="83:325" ph="{...}" />
+            <marker date="1518388674458" expanded="true" signature="123:323" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RemoteDesktopManager/Models/Contact.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="14" lean-forward="false" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="14" />
+          <folding>
+            <marker date="1518388793900" expanded="true" signature="83:501" ph="{...}" />
+            <marker date="1518388793900" expanded="true" signature="123:499" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RemoteDesktopManager/Models/Client.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="14" lean-forward="false" selection-start-line="22" selection-start-column="14" selection-end-line="22" selection-end-column="14" />
+          <folding>
+            <marker date="1518388793962" expanded="true" signature="6:78" ph="..." />
+            <marker date="1518388793962" expanded="true" signature="117:753" ph="{...}" />
+            <marker date="1518388793962" expanded="true" signature="156:751" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RemoteDesktopManager/Data/ApplicationContext.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1518388829438" expanded="true" signature="7:61" ph="..." />
+            <marker date="1518388829438" expanded="true" signature="98:685" ph="{...}" />
+            <marker date="1518388829438" expanded="true" signature="148:683" ph="{...}" />
+            <marker date="1518388829438" expanded="true" signature="655:676" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RemoteDesktopManager/Migrations/Configuration.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="58" column="48" lean-forward="false" selection-start-line="58" selection-start-column="48" selection-end-line="58" selection-end-column="48" />
+          <folding>
+            <marker date="1518388869843" expanded="true" signature="6:140" ph="..." />
+            <marker date="1518388869843" expanded="true" signature="183:4269" ph="{...}" />
+            <marker date="1518388869843" expanded="true" signature="273:4267" ph="{...}" />
+            <marker date="1518388869843" expanded="true" signature="310:377" ph="{...}" />
+            <marker date="1518388869843" expanded="true" signature="443:4261" ph="{...}" />
+            <marker date="1518388869843" expanded="true" signature="466:671" ph="/* This method will be called after migrating to the latest version. ... */" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RemoteDesktopManagerTest/CostsTests.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1518389358000" expanded="true" signature="6:83" ph="..." />
+            <marker date="1518389358000" expanded="true" signature="119:891" ph="{...}" />
+            <marker date="1518389358000" expanded="true" signature="149:889" ph="{...}" />
+            <marker date="1518389358000" expanded="true" signature="213:503" ph="{...}" />
+            <marker date="1518389358000" expanded="true" signature="559:883" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RemoteDesktopManager/Views/MainWindow.xaml.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="30" lean-forward="false" selection-start-line="19" selection-start-column="30" selection-end-line="19" selection-end-column="30" />
+          <folding>
+            <marker date="1518389357884" expanded="true" signature="6:130" ph="..." />
+            <marker date="1518389357884" expanded="true" signature="168:777" ph="{...}" />
+            <marker date="1518389357884" expanded="true" signature="175:253" ph="/// Interaction logic for MainWindow.xaml ... " />
+            <marker date="1518389357884" expanded="true" signature="289:775" ph="{...}" />
+            <marker date="1518389357884" expanded="true" signature="323:769" ph="{...}" />
           </folding>
         </state>
       </provider>

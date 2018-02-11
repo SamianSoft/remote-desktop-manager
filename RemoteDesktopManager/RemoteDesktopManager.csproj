@@ -34,6 +34,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="AxInterop.MSTSCLib">
+      <HintPath>Dll\AxInterop.MSTSCLib.dll</HintPath>
+    </Reference>
     <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
       <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.dll</HintPath>
     </Reference>
@@ -44,13 +47,17 @@
     <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Core" />
     <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml" />
     <Reference Include="System.Xaml">
       <RequiredTargetFramework>4.0</RequiredTargetFramework>
     </Reference>
+    <Reference Include="UIAutomationProvider" />
     <Reference Include="WindowsBase" />
     <Reference Include="PresentationCore" />
     <Reference Include="PresentationFramework" />
+    <Reference Include="WindowsFormsIntegration" />
   </ItemGroup>
   <ItemGroup>
     <ApplicationDefinition Include="App.xaml">
@@ -62,17 +69,24 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Data\ApplicationContext.cs" />
-    <Compile Include="Migrations\201802081554316_test.cs" />
-    <Compile Include="Migrations\201802081554316_test.Designer.cs">
-      <DependentUpon>201802081554316_test.cs</DependentUpon>
+    <Compile Include="Helpers\Consts.cs" />
+    <Compile Include="Helpers\CustomExtensions.cs" />
+    <Compile Include="Migrations\201802112252395_FirstModel.cs" />
+    <Compile Include="Migrations\201802112252395_FirstModel.Designer.cs">
+      <DependentUpon>201802112252395_FirstModel.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
-    <Compile Include="Model\BaseModel.cs" />
-    <Compile Include="Model\Client.cs" />
-    <Compile Include="Model\BaseSession.cs" />
-    <Compile Include="Model\RemoteSession.cs" />
-    <Compile Include="Model\SqlSession.cs" />
-    <Compile Include="View\MainWindow.xaml.cs">
+    <Compile Include="Models\Base\Model.cs" />
+    <Compile Include="Models\Client.cs" />
+    <Compile Include="Models\Base\Session.cs" />
+    <Compile Include="Models\Contact.cs" />
+    <Compile Include="Models\Message.cs" />
+    <Compile Include="Models\RemoteDisplayColor.cs" />
+    <Compile Include="Models\RemoteScreenSize.cs" />
+    <Compile Include="Models\RemoteSession.cs" />
+    <Compile Include="Models\SessionLog.cs" />
+    <Compile Include="Models\SqlSession.cs" />
+    <Compile Include="Views\MainWindow.xaml.cs">
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
@@ -86,8 +100,8 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="Migrations\201802081554316_test.resx">
-      <DependentUpon>201802081554316_test.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\201802112252395_FirstModel.resx">
+      <DependentUpon>201802112252395_FirstModel.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -99,14 +113,24 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Helpers\" />
     <Folder Include="ViewModel\" />
   </ItemGroup>
   <ItemGroup>
-    <Page Include="View\MainWindow.xaml">
+    <Page Include="Views\MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="MSTSCLib">
+      <Guid>{8C11EFA1-92C3-11D1-BC1E-00C04FA31489}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
