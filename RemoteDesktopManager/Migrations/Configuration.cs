@@ -46,18 +46,6 @@ namespace RemoteDesktopManager.Migrations
             context.ScreenSizes.AddOrUpdate(new RemoteScreenSize(ScreenSize.W3840_H2400));
             context.ScreenSizes.AddOrUpdate(new RemoteScreenSize {Id = ScreenSize.Custom.ToLong(), Title = "Custom"});
             context.ScreenSizes.AddOrUpdate(new RemoteScreenSize {Id = ScreenSize.CurrentScreenSize.ToLong(), Title = "Current screen size"});
-
-            context.SaveChanges();
-            context.Clients.AddOrUpdate(new Client { Address = "addre", CrmLink = "crmlink1", Name = "name1", Phone = "phone1" });
-            context.SaveChanges();
-            context.Contacts.AddOrUpdate(new Contact { CrmLink = "dgd", Extention = 23, Mobile = "0909", Name = "dfgf", Phone = "dffdf", ClientId = 1 });
-            context.SaveChanges();
-            context.Clients.AddOrUpdate(new Client { Address = "addr23e", CrmLink = "crmlink3", Name = "na2323me1", Phone = "phone1", ParentId = 1 });
-            context.SaveChanges();
-            context.RemoteSessions.AddOrUpdate(new RemoteSession { ClientId = 1, ColorDepthId = 1, SizeId = 2, IsConsole = true, Ip = "adad", Password = "adad", Port = "sd", LastActiveUser = "sdfsf" });
-            context.SaveChanges();
-            context.SqlSessions.AddOrUpdate(new SqlSession { ClientId = 1, Ip = "3434", Password = "addfdfad", Port = "sffd", LastActiveUser = "sd423fsf" });
-            context.SaveChanges();
         }
     }
 }
